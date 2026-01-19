@@ -1,3 +1,5 @@
+package Topic1_1;
+
 public class Circle {
     // Instance variables
     private int x;
@@ -23,9 +25,9 @@ public class Circle {
     }
 
     /*
-    * Gets the area of the Circle as an integer.
+    * Gets the area of the Topic1_1.Circle as an integer.
     *
-    * @return The area of Circle as int.
+    * @return The area of Topic1_1.Circle as int.
     * */
     public int getArea() {
         // Uses Java built-in Math class
@@ -69,8 +71,8 @@ public class Circle {
     }
 
     /*
-    * Gets the maximum radius of Circle class so far.
-    * @return The max radius of Circle as double.
+    * Gets the maximum radius of Topic1_1.Circle class so far.
+    * @return The max radius of Topic1_1.Circle as double.
      */
     public static double getMaxRadius() {
         // Uses class variables in a static function

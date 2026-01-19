@@ -1,3 +1,5 @@
+package Topic1_1;
+
 public class Topic1_1 {
     // Method for Enumerations Topic
     public static void describe(String c, Priority p) {
@@ -15,6 +17,7 @@ public class Topic1_1 {
         }
     }
 
+    // Main code blocks provided by exercise
     public static void main(String[] args) {
         // Main code block for Defining Classes Topic
         System.out.println("Topic 1.1: Creation of object instances using default and parameter values.");
