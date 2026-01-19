@@ -1,16 +1,31 @@
-public class Week1Main {
-    public static void main(String[] args) {
+public class Topic1_1 {
+    // Method for Enumerations Topic
+    public static void describe(String c, Priority p) {
+        // Usage of switch to handle enumeration value
+        switch (p) {
+            case LOW:
+                System.out.println(c + " indicates low priority");
+                break;
+            case MEDIUM:
+                System.out.println(c + " indicates medium priority");
+                break;
+            case HIGH:
+                System.out.println(c + " indicates high priority");
+                break;
+        }
+    }
 
-        // main code block for 1.1a
-        System.out.println("1.1a Topic: Creation of object instances using default and parameter values.");
+    public static void main(String[] args) {
+        // Main code block for Defining Classes Topic
+        System.out.println("Topic 1.1: Creation of object instances using default and parameter values.");
         Circle ca = new Circle();
 
         System.out.println(ca.getArea());
         ca = new Circle(1, 2, 5);
         System.out.println(ca.getArea());
 
-        // main code block for 1.1b
-        System.out.println("1.1b Topic: Getting and setting of instance variables.");
+        // Main code block for Getters and Setters Topic
+        System.out.println("\nTopic 1.1: Getting and setting of instance variables.");
         Circle cb = new Circle();
 
         cb.setX(4);
@@ -27,8 +42,8 @@ public class Week1Main {
         System.out.println("radius : " + cb.getRadius());
 
 
-        // main code block for 1.1c
-        System.out.println("1.1c Topic: Getting and setting of class variables.");
+        // Main code block for Class-level Members Topic
+        System.out.println("\nTopic 1.1: Getting and setting of class variables.");
         Circle cc = new Circle();
         System.out.println("max radius used so far : " + Circle.getMaxRadius());
         cc = new Circle(0, 0, 10);
@@ -37,11 +52,12 @@ public class Week1Main {
         System.out.println("max radius used so far : " + Circle.getMaxRadius());
         cc.setRadius(12);
         System.out.println("max radius used so far : " + Circle.getMaxRadius());
-/*
+
+        // Main code block for Enumerations Topic
+        System.out.println("\nTopic 1.1: Usage of Enumerations");
         describe("Red", Priority.HIGH);
         describe("Orange", Priority.MEDIUM);
         describe("Blue", Priority.MEDIUM);
         describe("Green", Priority.LOW);
-         */
     }
 }
