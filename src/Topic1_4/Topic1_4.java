@@ -73,7 +73,7 @@ public class Topic1_4 {
         System.out.println("The total is: " + getTotal());
 
         // Main code block for Java Collections HashMap Topic
-        System.out.println("Topic 1.4: Usage of HashMap to store, update and display key-value pairs");
+        System.out.println("\nTopic 1.4: Usage of HashMap to store, update and display key-value pairs");
         addToRoster("Monday"); // i.e., one person signed up for Monday
         addToRoster("Wednesday"); // i.e., one person signed up for Wednesday
         addToRoster("Wednesday"); // i.e., another person signed up for Wednesday
